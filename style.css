@@ -11,9 +11,13 @@
   background-color: #fff;
   width: 300px;
 }
+.navbar-brand {
+  img {
+    width: 100px;
+  }
+}
 
-/* Media query for screens smaller than 768px */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .card {
     width: 250px;
     font-size: small;
@@ -26,7 +30,6 @@
   }
 }
 
-/* Media query for screens smaller than 480px */
 @media (max-width: 480px) {
   .card {
     width: 200px;
